@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank website</title>
+    <!--  telwind.css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <section>
+        <h1 class="text-5xl text-center pt-10">Function er bap !!!!</h1>
+        <div class="grid grid-cols-3 gap-3.5 w-9/12 mx-auto">
+            <div id="deposit-1 " class=" text-white mt-20 p-10 bg-sky-400">
+                <h1 class="text-3xl pb-5">Deposit</h1>
+                <p class="text-5xl">$<span id="addes-value">00</span></p>
+            </div>
+            <!-- div 2 -->
+            <div id="deposit-1 " class=" text-white mt-20 p-10 bg-red-400">
+                <h1 class="text-3xl pb-5">withdrow</h1>
+                <p class="text-5xl">$<span id="withdrow-one">00</span></p>
+            </div>
+
+            <!-- div 3 -->
+            <div id="deposit-1 " class=" text-white mt-20 p-10 bg-orange-400">
+                <h1 class="text-3xl pb-5">Total</h1>
+                <p class="text-5xl">$<span id="addes-all">1240</span></p>
+            </div>
+
+        </div>
+
+        
+    </section >
+    <!-- section 2 -->
+    <section>
+        <div class="mt-10 gap-5 grid grid-cols-2 w-9/12 mx-auto">
+            <div class="bg-green-500 p-10">
+               <h1 class="pb-4 text-2xl">Your deposit</h1>
+               <input id="seen-value" class="w-9/12 px-3" type="text" placeholder="$ Amount you want to deposit">
+               <br>
+               <button id="click-btn" class="px-3 py-1 bg-red-300 mt-3 hover:bg-orange-600 rounded-lg">Deposit</button>
+            </div>
+           
+            <!-- div 2 -->
+           
+            <div class="bg-violet-400 p-10">
+               <h1 class="pb-4 text-2xl">Your withdrow</h1>
+               <input id="secend-input" class="w-9/12 px-3" type="text" placeholder="$ Amount you want to withdrow">
+               <br>
+               <button id="withdrow-id" class="px-3 py-1 bg-red-300 mt-3 hover:bg-orange-600 rounded-lg">withdrow</button>
+            </div>
+           
+               </div>
+    </section>
+    <script src="js file/js.js"></script>
+</body>
+
+</html>
